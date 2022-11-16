@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Banco Fernando Martins </title>
+  </head>
+  <body>
+    <header>
+        <a href="#">Menu</a>
+        <a href="#">Cadastrar</a>
+        <a href="#">Depósito</a>
+        <a href="#"></a>
+    </header>
+    <h1>Banco Fernando Martins</h1>
+    <div class="container1">
+      <input type="text" name="" id="nomeCliente" placeholder="Nome Cliente" />
+      <input type="tel" name="" id="telefoneCliente" placeholder="Telefone" />
+      <input type="text" name="" id="cpfCliente" placeholder="CPF" />
+      <input type="email" name="" id="emailCliente" placeholder="E-mail" />
+      <input type="number" name="" id="saldoCliente" placeholder="Saldo" />
+      <input type="password" name="" id="senhaCliente" placeholder="Senha" />
+      <button class="botao" id="botao-salvar"  >Salvar</button>
+      <br>
+      <span id="resultado-cadastro"></span>
+    </div>
+    <div class="container2">
+        <h2>Deposito Bancario</h2>
+        <input type="number" name="" id="valor-deposito" placeholder="Valor"/>
+        <button class="botao" id="botao-depositar">Depositar</button>
+        <br>
+        <span id="resultado-deposito"></span>
+    <div class="container3">
+        <h2>Solicitar Saldo</h2>
+        <button class="botao" id="botao-extrato">Saldo Bancário</button>
+        <br>
+        <span id="resultado-extrato"></span>
+    </div>
+    <script src="/PROJETO-bank/script/cliente.js"></script>
+    <script type="text/javascript" src="/PROJETO-bank/FileSaver.js"></script>
+    
+  </body>
+</html>
